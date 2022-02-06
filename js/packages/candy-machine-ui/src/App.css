@@ -1,3 +1,53 @@
 .App {
   text-align: center;
 }
+
+.description {
+  color: white;
+  font-family: 'Fjalla One', Verdana, Geneva, sans-serif;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.myTitle {
+  font-size: larger;
+  font-weight: bold;
+}
+
+a {
+  color: #6100ff;
+  font-weight: bold;
+}
+
+.footer {
+  color: white;
+  margin-top: 80px;
+  padding: 1.2em 0;
+  background: #6100ff;
+  bottom: 0;
+  font-family: 'Fjalla One', Verdana, Geneva, sans-serif;
+  font-size: 0.95em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 320px) {
+  .description {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+}
+
+@media (min-width: 600px) {
+  .description {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .description {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
