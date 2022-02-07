@@ -67,14 +67,14 @@ const App = () => {
 
   return (
     <div>
+      <div className="header"></div>
       <div className="description">
         <img src={squares} alt="sample square"></img>
         <p className="myTitle">
-          Welcome to Solana Squares: SuperBowl LVI Edition!
+          Welcome to Solana Squares: 🏈  SuperBowl LVI Edition!
         </p>
         <p>
-          In collaboration with <a href="mickeydegods.com">Mickey DeGods</a>,
-          we've got a little interim degen fun for y'all while we put the
+          The gang here at Solana Lottery have got a little interim degen fun for y'all while we put the
           finishing touches on Game 4. If you're not familiar with Super Bowl
           Squares, it's essentially a 10x10 grid, with a number assigned to each
           column and row. At the end of each quarter of the game, if your set of
@@ -111,17 +111,17 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
 
-        <div className="description">
+        <div className="payouts">
           <br></br>
           <b>Payouts will be as follows:</b>
           <br></br>1st Quarter winner will receive 12.5% of the pot (≈ 12.5x
-          mint)<br></br>2nd Quarter (Halftime) winner will receive 25% of the
+          mint)<br></br>2nd Quarter winner will receive 25% of the
           pot (≈ 25x mint)<br></br>3rd Quarter winner will receive 12.5% of the
           pot (≈ 12.5x mint) <br></br>Final score winner will receive 40% of the
           pot (≈ 40x mint)
         </div>
 
-        <div className="footer">Footer here</div>
+        <div className="footer">Built with love by <a href="http://twitter.com/web3_degen">@web3_degen</a> ❤️ </div>
       </ThemeProvider>
     </div>
   );

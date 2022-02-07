@@ -2,8 +2,33 @@
   text-align: center;
 }
 
+.header {
+  color: white;
+  padding: 1.2em 0;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  min-height: 30px;
+  background: #6100ff;
+  bottom: 0;
+  font-family: 'Fjalla One', Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .description {
   color: white;
+  font-family: 'Fjalla One', Verdana, Geneva, sans-serif;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.4;
+}
+
+.payouts {
+  color: white;
+  font-size: small;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: 'Fjalla One', Verdana, Geneva, sans-serif;
   text-align: center;
   justify-content: center;
@@ -11,23 +36,25 @@
 }
 
 .myTitle {
-  font-size: larger;
+  font-size: x-large;
   font-weight: bold;
 }
 
 a {
-  color: #6100ff;
+  color: white;
   font-weight: bold;
 }
 
 .footer {
-  color: white;
   margin-top: 50px;
+  color: white;
   padding: 1.2em 0;
+  padding-left: 20px;
   background: #6100ff;
   bottom: 0;
   font-family: 'Fjalla One', Verdana, Geneva, sans-serif;
-  font-size: 0.95em;
+  font-size: 1em;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
