@@ -2,7 +2,7 @@ import './App.css';
 import { useMemo } from 'react';
 import * as anchor from '@project-serum/anchor';
 import Home from './Home';
-import squares from './images/6.png';
+import squares from './images/superbowl-squares.gif';
 
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
@@ -68,25 +68,32 @@ const App = () => {
   return (
     <div>
       <div className="description">
-        <img src={squares} width={300} alt="sample square"></img>
+        <img src={squares} alt="sample square"></img>
         <p>
           <p className="myTitle">
             Welcome to Solana Squares: SuperBowl LVI Edition!
           </p>
           <p>
-          In collaboration with <a href="mickeydegods.com">Mickey DeGods</a>,
-          we've got a little interim degen fun for y'all while we put the
-          finishing touches on Game 4. If you're not familiar with Super Bowl
-          Squares, it's essentially a 10x10 grid, with a number assigned to each
-          column and row. At the end of each quarter of the game, if your set of
-          numbers corresponds to the number at the end of the Home and Away
-          teams score, you win a % of the pot!</p><p><b>EXAMPLE:</b><br></br>If at half time
-          the score is 17-21, whoever holds the NFT with 7-1 on it wins!</p>
-          We have three different priced boards with 100 NFTs on
-          each:<br></br>
-          <p><b>
-            0.25 SOL<br></br>
-            0.5 SOL<br></br>1 SOL<br></br></b>
+            In collaboration with <a href="mickeydegods.com">Mickey DeGods</a>,
+            we've got a little interim degen fun for y'all while we put the
+            finishing touches on Game 4. If you're not familiar with Super Bowl
+            Squares, it's essentially a 10x10 grid, with a number assigned to
+            each column and row. At the end of each quarter of the game, if your
+            set of numbers corresponds to the number at the end of the Home and
+            Away teams score, you win a % of the pot!
+          </p>
+          <p>
+            <b>EXAMPLE:</b>
+            <br></br>If at half time the score is 17-21, whoever holds the NFT
+            with 7-1 on it wins!
+          </p>
+          We have three different priced boards with 100 NFTs on each:<br></br>
+          <p>
+            <b>
+              Tier 1 - 0.25 SOL<br></br>
+              Tier 2 - 0.5 SOL<br></br>
+              Tier 3 - 1 SOL<br></br>
+            </b>
           </p>
         </p>
       </div>
@@ -106,11 +113,15 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
 
-        <div className='description'><b>Payouts will be as follows:</b><br></br>1st Quarter winner will receive
-          12.5% of the pot (≈ 12.5x mint)<br></br>2nd Quarter (Halftime) winner will
-          receive 25% of the pot (≈ 25x mint)<br></br>3rd Quarter winner will receive
-          12.5% of the pot (≈ 12.5x mint) <br></br>Final score winner will receive 40% of
-          the pot (≈ 40x mint)</div>
+        <div className="description">
+          <br></br>
+          <b>Payouts will be as follows:</b>
+          <br></br>1st Quarter winner will receive 12.5% of the pot (≈ 12.5x
+          mint)<br></br>2nd Quarter (Halftime) winner will receive 25% of the
+          pot (≈ 25x mint)<br></br>3rd Quarter winner will receive 12.5% of the
+          pot (≈ 12.5x mint) <br></br>Final score winner will receive 40% of the
+          pot (≈ 40x mint)
+        </div>
 
         <div className="footer">Footer here</div>
       </ThemeProvider>
