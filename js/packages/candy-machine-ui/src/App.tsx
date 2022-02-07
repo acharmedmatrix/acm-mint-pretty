@@ -69,32 +69,30 @@ const App = () => {
     <div>
       <div className="description">
         <img src={squares} alt="sample square"></img>
+        <p className="myTitle">
+          Welcome to Solana Squares: SuperBowl LVI Edition!
+        </p>
         <p>
-          <p className="myTitle">
-            Welcome to Solana Squares: SuperBowl LVI Edition!
-          </p>
-          <p>
-            In collaboration with <a href="mickeydegods.com">Mickey DeGods</a>,
-            we've got a little interim degen fun for y'all while we put the
-            finishing touches on Game 4. If you're not familiar with Super Bowl
-            Squares, it's essentially a 10x10 grid, with a number assigned to
-            each column and row. At the end of each quarter of the game, if your
-            set of numbers corresponds to the number at the end of the Home and
-            Away teams score, you win a % of the pot!
-          </p>
-          <p>
-            <b>EXAMPLE:</b>
-            <br></br>If at half time the score is 17-21, whoever holds the NFT
-            with 7-1 on it wins!
-          </p>
-          We have three different priced boards with 100 NFTs on each:<br></br>
-          <p>
-            <b>
-              Tier 1 - 0.25 SOL<br></br>
-              Tier 2 - 0.5 SOL<br></br>
-              Tier 3 - 1 SOL<br></br>
-            </b>
-          </p>
+          In collaboration with <a href="mickeydegods.com">Mickey DeGods</a>,
+          we've got a little interim degen fun for y'all while we put the
+          finishing touches on Game 4. If you're not familiar with Super Bowl
+          Squares, it's essentially a 10x10 grid, with a number assigned to each
+          column and row. At the end of each quarter of the game, if your set of
+          numbers corresponds to the number at the end of the Home and Away
+          teams score, you win a % of the pot!
+        </p>
+        <p>
+          <b>EXAMPLE:</b>
+          <br></br>If at half time the score is 17-21, whoever holds the NFT
+          with 7-1 on it wins!
+        </p>
+        We have three different priced boards with 100 NFTs on each:<br></br>
+        <p>
+          <b>
+            Tier 1 - 0.25 SOL<br></br>
+            Tier 2 - 0.5 SOL<br></br>
+            Tier 3 - 1 SOL<br></br>
+          </b>
         </p>
       </div>
 
