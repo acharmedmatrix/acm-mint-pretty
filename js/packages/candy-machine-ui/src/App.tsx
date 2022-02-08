@@ -67,7 +67,6 @@ const App = () => {
 
   return (
     <div>
-      <div className="header"></div>
       <div className="description">
         <img src={squares} alt="sample square"></img>
         <p className="myTitle">
