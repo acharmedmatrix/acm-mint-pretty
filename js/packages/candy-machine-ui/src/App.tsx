@@ -80,19 +80,6 @@ const App = () => {
           numbers corresponds to the number at the end of the Home and Away
           teams score, you win a % of the pot!
         </p>
-        <p>
-          <b>EXAMPLE:</b>
-          <br></br>If at half time the score is 17-21, whoever holds the NFT
-          with 7-1 on it wins!
-        </p>
-        We have three different priced boards with 100 NFTs on each:<br></br>
-        <p>
-          <b>
-            Tier 1 - 0.25 SOL<br></br>
-            Tier 2 - 0.5 SOL<br></br>
-            Tier 3 - 1 SOL<br></br>
-          </b>
-        </p>
       </div>
 
       <ThemeProvider theme={theme}>
@@ -112,7 +99,7 @@ const App = () => {
 
         <div className="payouts">
           <br></br>
-          <b>Payouts will be as follows:</b>
+          <b>Payout estimates:</b>
           <br></br>1st Quarter winner will receive 12.5% of the pot (≈ 12.5x
           mint)<br></br>2nd Quarter winner will receive 25% of the
           pot (≈ 25x mint)<br></br>3rd Quarter winner will receive 12.5% of the
