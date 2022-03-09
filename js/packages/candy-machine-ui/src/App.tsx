@@ -2,7 +2,7 @@ import './App.css';
 import { useMemo } from 'react';
 import * as anchor from '@project-serum/anchor';
 import Home from './Home';
-import squares from './images/Scratch_Card_Animate_1.gif';
+import card from './images/Scratch_Card_Animate_1.gif';
 
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
@@ -68,17 +68,12 @@ const App = () => {
   return (
     <div>
       <div className="description">
-        <img src={squares} alt="sample square"></img>
+        <img src={card} alt="sample card"></img>
         <p className="myTitle">
-          Welcome to Solana Squares: 🏈 SuperBowl LVI Edition!
+          Welcome to Solana Scratch Off!
         </p>
         <p>
-          The gang here at Solana Lottery have got a little interim degen fun
-          for y'all while we put the finishing touches on Game 4. If you're not
-          familiar with Super Bowl Squares, it's essentially a 10x10 grid, with
-          a number assigned to each column and row. At the end of each quarter
-          of the game, if your set of numbers corresponds to the number at the
-          end of the Home and Away teams score, you win a % of the pot!
+          The gang here at Solana Lottery have lorem ipsumed a Scratch Off Game. 
         </p>
       </div>
 
@@ -100,15 +95,11 @@ const App = () => {
         <div className="payouts">
           <br></br>
           <b>Payout estimates:</b>
-          <br></br>1st Quarter winner will receive 12.5% of the pot
-          <br></br>2nd Quarter winner will receive 25% of the pot<br></br>3rd
-          Quarter winner will receive 12.5% of the pot<br></br>Final score
-          winner will receive 40% of the pot
-        </div>
-
-        <div className="footer">
-          Built with love by{' '}
-          <a href="http://twitter.com/web3_degen">@web3_degen</a> ❤️{' '}
+          <br></br>100 winning tickets will give your money back
+          <br></br>20 winning tickets will 10x
+          <br></br>10 winning tickets will 20x
+          <br></br>5 winning tickets will 50x
+          <br></br>1 winning ticket will 100x
         </div>
       </ThemeProvider>
     </div>
