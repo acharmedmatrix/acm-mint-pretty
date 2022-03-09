@@ -73,7 +73,9 @@ const App = () => {
           Welcome to Solana Scratch Off!
         </p>
         <p>
-          The gang here at Solana Lottery have lorem ipsumed a Scratch Off Game. 
+          Welcome to The Solana Lotter Scratch Offs!
+          <br></br>Inspired by everyone's favorite degen game. Our scratch offs are a high supply, low cost chance to 10x, 20x, even 100x your bag!
+          <br></br>Solana Lotto Scratch Offs are INSTANT WIN meaning your NFTs metadata will tell you right away if you're a winner or not! Winning tickets can be sent to thesolanalottery.sol (BV3jnsxKk9PZSeWHSWb5gD2Y1w6QnR7xuUWKih8RhjZ7) to claim your prize!
         </p>
       </div>
 
@@ -94,12 +96,12 @@ const App = () => {
 
         <div className="payouts">
           <br></br>
-          <b>Payout estimates:</b>
-          <br></br>100 winning tickets will give your money back
-          <br></br>20 winning tickets will 10x
-          <br></br>10 winning tickets will 20x
-          <br></br>5 winning tickets will 50x
-          <br></br>1 winning ticket will 100x
+          <b>Payouts <a href="https://explorer.solana.com/address/BV3jnsxKk9PZSeWHSWb5gD2Y1w6QnR7xuUWKih8RhjZ7">(Lotto wallet must contain sufficient funds for payout)</a>:</b>
+          <br></br>1 Jackpot ticket = 10 SOL
+          <br></br>5 50x tickets = 5 SOL
+          <br></br>10 20x tickets = 2 SOL
+          <br></br>20 10x tickets = 1 SOL
+          <br></br>100 PlayAgain tickets = .1 SOL
         </div>
       </ThemeProvider>
     </div>
