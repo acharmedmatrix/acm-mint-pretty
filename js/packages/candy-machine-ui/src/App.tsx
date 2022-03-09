@@ -2,7 +2,7 @@ import './App.css';
 import { useMemo } from 'react';
 import * as anchor from '@project-serum/anchor';
 import Home from './Home';
-import squares from './images/superbowl-squares.gif';
+import squares from './images/Scratch_Card_Animate_1.gif';
 
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
