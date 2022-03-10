@@ -69,13 +69,9 @@ const App = () => {
     <div>
       <div className="description">
         <img src={card} alt="sample card"></img>
-        <p className="myTitle">
-          Welcome to Solana Scratch Off!
-        </p>
         <p>
-          Welcome to The Solana Lotter Scratch Offs!
           <br></br>Inspired by everyone's favorite degen game. Our scratch offs are a high supply, low cost chance to 10x, 20x, even 100x your bag!
-          <br></br>Solana Lotto Scratch Offs are INSTANT WIN meaning your NFTs metadata will tell you right away if you're a winner or not! Winning tickets can be sent to thesolanalottery.sol (BV3jnsxKk9PZSeWHSWb5gD2Y1w6QnR7xuUWKih8RhjZ7) to claim your prize!
+          <br></br>Solana Lottery Scratch & Win is INSTANT WIN meaning your NFTs metadata will tell you right away if you're a winner or not! Winning tickets can be sent to thesolanalottery.sol (BV3jnsxKk9PZSeWHSWb5gD2Y1w6QnR7xuUWKih8RhjZ7) to claim your prize!
         </p>
       </div>
 
